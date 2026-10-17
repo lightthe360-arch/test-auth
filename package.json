@@ -1,0 +1,23 @@
+
+{
+  "name": "discord-oauth-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord OAuth2 dashboard and bot for one Discord server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "express-rate-limit": "^8.1.0"
+  }
+}
